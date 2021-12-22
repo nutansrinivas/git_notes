@@ -1,0 +1,12 @@
+
+1. how to create a git repository
+
+
+ a) git init - 	This command creates an empty git repository - 
+	 	basically a .git directory with subdirectories for objects, refs/heads, refs/tags, and template files. 
+		An initial HEAD file that references the HEAD of the master branch is also created.
+
+
+ b) add remote repository url to local repository - git remote add remote_name remote_repo_url
+		This command will map remote repository to a reference in your local repository. 
+ c) push the local repo branch to the remote repo at remote_name - git push -u remote_name local_branch_name
